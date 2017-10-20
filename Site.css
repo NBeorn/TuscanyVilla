@@ -17,7 +17,7 @@
 }
 
 #navvy a {
-    color: white;;
+    color: white;
 }
 
 #navvy a:hover {
@@ -37,21 +37,28 @@
 
 .header-picture {
     padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 .versilia {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     height: 380px;
+    width: 330px;
 }
 
 .pushright {
     text-align: right;
-    margin-bottom: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 380px;
 }
 
 .jumbo-right-pic {
     padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    height: 380px;
+    background-size: cover;
 }
 
 /*Locations*/
@@ -65,4 +72,74 @@
 
 .locations p {
     font-size: 20px;
+}
+
+.reserveNow {
+    background-color: #474E5D;
+}
+
+.snowy {
+    height: 300px;
+    width: 100%;
+    padding-right: 40px;
+}
+
+.imageMovement {
+    padding: 0px 0px 0px 0px;
+}
+
+.lorem {
+    padding-left: 60px;
+}
+
+.modern {
+    height: 300px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.location2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #474E5D;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+#location3 {
+    margin-bottom: 50px;
+}
+
+/*Grid*/
+.grid-text {
+    text-align: center;
+}
+
+.grid-images {
+    width: 100%;
+}
+
+.grid-row {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #474E5D;
+    font-size: 25px;
+    padding: 10px 15px 10px 15px;
+    opacity: 0.85;
+}
+
+.grid-overlay {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
 }
